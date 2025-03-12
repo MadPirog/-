@@ -1,0 +1,6 @@
+start 
+new string Date 
+set Date "wed mar 12 2025 13:53:00 GMT +3"
+log string "Сегодняшняя дата">> Date
+finish
+
