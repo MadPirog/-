@@ -1,23 +1,16 @@
 start
 
-new string b
-new string i
-new string n
-new string g
-new string o
+new B string
+set B "B"
+new I string
+set I "I"
+new N string
+set N "N"
+new G string
+set G "G"
+new O string
+set O "O"
 
-set b "B"
-set i "I"
-set n "N"
-set g "G"
-set o "O"
 
-log string b + "-" + i + "-" + n + "-" + g + "-" + o
-
-delete b
-delete i
-delete n
-delete g
-delete o
-
+log string B >> "-" >> I >> "-" >> N >> "-" >> G >> "-" >> O
 finish
